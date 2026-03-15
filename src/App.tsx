@@ -1,7 +1,11 @@
-import ListGroup from './components/ListGroup'
+import Dashboard from "./components/Dashboard";
 
 function App() {
-  return <div><ListGroup /></div>
+  return (
+    <div>
+      <Dashboard />
+    </div>
+  );
 }
 
 export default App;
